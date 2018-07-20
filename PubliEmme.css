@@ -1,0 +1,128 @@
+.MIM {
+ width: 520px;
+ background: #EEE;
+ margin: 20px auto;
+ color: #945977;
+ border: 5px dashed;
+ outline: 10px solid #EEE;
+ box-shadow: 10px 10px 20px #000;
+ font: 20px Tahu;
+ text-align: center;
+}
+.intoMIM {
+ background: #eee;
+ border: 1px solid;
+ outline: 3px solid #eee;
+}
+.intoMIM titu, .intoMIM titu b, .intoMIM titu i, .intoMIM titu:before {
+ display: block;
+}
+.intoMIM titu {
+ width: 170px;
+ background:#945977;
+ height: 170px;
+ margin: 100px auto 20px;
+ border-radius: 50%;
+ text-shadow: 3px 3px 2px #0004;
+ color: #EEE;
+ text-align: center;
+ padding: 5px;
+}
+.intoMIM titu:before {
+ content: ".";
+ font: 100px The King;
+ float: left;
+ margin: -90px 0 -25px -5px;
+ transform: rotate(-17deg);
+ color: #945977;
+}
+.intoMIM titu b {
+ border: 1px dashed;
+ border-radius: 50%;
+ height: 154px;
+ font: 35px/150px Chapaza;
+ margin: 3px;
+}
+.intoMIM titu i {
+ font: 12px arial;
+ margin: -70px 0 0 0;
+ text-transform: uppercase;
+ letter-spacing: 17px;
+ padding-left: 18px;
+}
+.daMIM {
+ border-right: 50px solid;
+ border-left: 50px solid;
+ line-height: 2px;
+ width: fit-content;
+ padding: 0 10px;
+ margin: 40px auto;
+}
+.apMIN {
+ padding: 0px 0 10px;
+}
+.apMIN i.fas {
+ display: inline-block;
+ width: 50px;
+ height: 50px;
+ line-height: 44px;
+ border: 3px solid;
+ border-radius: 50%;
+ text-align: center;
+ position: relative;
+ box-shadow: 3px 3px 2px #0004;
+ margin: 50px 20px;
+}
+.apMIN i.fas:nth-of-type(odd) {
+ top: -20px;
+}
+.apMIN i.fas b {
+ position: absolute;
+ background: #945977;
+ color: #eee;
+ font: normal 11px arial;
+ text-transform: uppercase;
+ padding: 7px;
+ border-radius: 10px;
+ left: 50%;
+ transform: translateX(-50%);
+ min-width: 60px;
+ box-shadow: 2px 2px #945977, 2px -2px #945977, -2px 2px #945977, -2px -2px #945977;
+ border: 1px dashed;
+}
+.apMIN i.fas:nth-of-type(odd) b {
+ bottom: -50px;
+}
+.apMIN i.fas:nth-of-type(even) b {
+ top: -50px;
+}
+.apMIN i.fas b:before {
+content: "";
+ width: 10px;
+ border-left: 10px solid transparent;
+ border-right: 10px solid transparent;
+ display: block;
+ position: absolute;
+ left: 50%;
+ transform: translateX(-50%);
+}
+.apMIN i.fas:nth-of-type(odd) b:before {
+ border-bottom: 10px solid #945977;
+ top: -10px;
+}
+.apMIN i.fas:nth-of-type(even) b:before {
+ border-top: 10px solid #945977;
+ bottom: -10px;
+}
+@font-face {
+ font-family: 'The King';
+ src: url('https://cdn.rawgit.com/EmmesCodes/mmhost/2339689f/The%20King.ttf');
+}
+@font-face {
+ font-family: 'Tahu';
+ src: url('https://cdn.rawgit.com/EmmesCodes/mmhost/f3529c37/Tahu!.ttf');
+}
+@font-face {
+ font-family: 'Chapaza';
+ src: url('https://cdn.rawgit.com/EmmesCodes/mmhost/f3529c37/Chapaza.ttf');
+}
